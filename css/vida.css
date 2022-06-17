@@ -1,0 +1,86 @@
+*{
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: saddlebrown;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 41, 215);
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.article{
+    width: 68%;
+    height: 580px;
+    background-color: cadetblue;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 50px;
+    position: relative;
+}
+
+.section{
+    width: 97%;
+    height: 50px;
+    background-color:darkgreen;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 50px;
+    flex: auto;
+    position: absolute;
+    padding-top: 215px;
+    padding-bottom: 215px;
+}
+
+.aside{
+    width: 30%;
+    height: 50px;
+    background-color: chocolate;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 50px;
+    padding-top: 280px;
+    padding-bottom: 280px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(145, 4, 149);
+    float: right;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 50px;
+}
